@@ -1,0 +1,3 @@
+All of you functional requirements (FRs) are described very well. 
+However, you need to make some adjustment of the non-functional requirements Your NFRs should be measureable. 
+For instance, availability  could be represented as follows: The system should be available 99% of the time.
