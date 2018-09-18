@@ -1,0 +1,66 @@
+User Stories
+
+As a driver, I want to be able to know when to go at a light so that I can safely cross the road.
+•	Light displays the color for go
+
+As a driver, I want to be able to know when to slow down and stop at a light so that I can safely stop and allow other cars to go.
+•	Light displays the color for slow down
+•	Light displays the color for stop
+
+As a driver, I want the traffic system to be able to determine vehicle line-up so that it can prioritize light order.
+•	Reliably keep up with all lanes at the same time
+•	The margin of error must be less than 1%
+
+As a color-blind driver, I want to be able to visually tell which light is stop, slow down, and go so that I can safely get to my destination.
+•	Either display color-blind friendly colors or go, slow, stop within lights
+•	Should be usable by 99% of the color-blind
+
+As a pedestrian, I want to be able to press a button to speed up crossing, so that I can get to my destination efficiently and safely.
+•	Account for the button press
+•	System updates priority
+
+As a pedestrian, I want there to be a countdown so I can know how long is left to cross safely.
+•	Display a countdown showing how long the pedestrian has to cross
+•	Show a stop hand once the timer is over
+
+As a system admin, I want to be able to log in so that I can monitor the system.
+•	Prompt the system admin for username and password
+•	Save the password as a hash
+•	Display the control interface
+•	If it fails, tell the user the username or password was incorrect
+
+As a driver, I want there to be a fail-safe system so that in emergencies wrecks are evaded.
+•	Default to basic light timers in the event of loss of priority calculations
+•	For special events allow system admin to control lights
+•	The system must be able to run 99% of the time
+
+As a driver, I need the traffic system to be able to prioritize lanes so that traffic moves as quickly and efficiently as possible.
+•	The algorithm would have to order lights by how many vehicles are in each lane
+•	At least 50 vehicles must be tracked at a time
+
+As a driver, I want to not be prompted to go or turn at the same time as a perpendicular lane of traffic so that we do not have a wreck.
+•	The perpendicular lights are opposite signals at all times
+•	If the left light is go, the right light is go, the bottom and top lights are stop
+
+As a driver, I want the traffic light to notice my arrival so that I will either continue to have time to cross a road, or decrease the time until I can go.
+•	The light monitors and updates the timer length for longer lanes
+•	Other lane will continue to update simultaneously
+
+As a driver, I want the pedestrian countdown to align with the slow-down light time so that I know how long I have until the light changes.
+•	When the countdown gets to 0, the parallel lights turn to the slow-down color
+•	After turning to the stop color, the perpendicular lights turn green and their crossing lights start
+
+As a system admin, I want to be able to see a simulated environment of the traffic lights and cars so that I can test the system with scenarios.
+•	The environment should be 99% accurate to the real setting
+•	Every aspect should be displayed in real-time
+
+As a driver, I want there to be a left turning lane light so that I can turn left without having to wait for oncoming traffic to pass.
+•	Left turn light changes to green before the main lights for those lanes
+•	Only prompts for go and delays oncoming traffic if cars are present in the turning lane
+
+As a system admin, I want the system to have a way to manually control the lights in case of a special occasion
+•	Lights can be manually controlled and changed remotely or on site
+
+As a system admin, I want the system to run quickly and efficiently so to prevent downtime whenever possible
+•	System logs any errors and sends a message to admin in case of failure
+•	Reboots or resumes operation as soon as possible
