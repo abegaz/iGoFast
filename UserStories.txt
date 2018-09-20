@@ -64,3 +64,6 @@ As a system admin, I want the system to have a way to manually control the light
 As a system admin, I want the system to run quickly and efficiently so to prevent downtime whenever possible
 •	System logs any errors and sends a message to admin in case of failure
 •	Reboots or resumes operation as soon as possible
+
+# Feedback
+Very good
