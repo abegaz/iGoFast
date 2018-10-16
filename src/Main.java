@@ -8,7 +8,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("edu/ung/mccb/csci/csci3300/iGoFast/View/register.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("edu/ung/mccb/csci/csci3300/iGoFast/View/login.fxml"));
         primaryStage.setTitle("Traffic Control Admin Registration");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();

@@ -102,7 +102,7 @@ public class Admin {
     }
     public boolean verifyLogin(String password, String adminID)
     {
-        boolean isRegistred=false;
+        boolean isRegistered=false;
         String query = "select * from admin where adminid='"+adminID+"'";
 
         try {
@@ -115,9 +115,9 @@ public class Admin {
             } else {
                 String storedHashedPassword = rs.getString("password");
                 String storedSalt = rs.getString("salt");
-                String genreatedHashedPassword = generateSaltedHashedPassword(password, storedSalt);
-                if (storedHashedPassword.equals(genreatedHashedPassword)) {
-                    isRegistred = true;
+                String generatedHashedPassword = generateSaltedHashedPassword(password, storedSalt);
+                if (storedHashedPassword.equals(generatedHashedPassword)) {
+                    isRegistered = true;
                 } else {
                     System.out.println("Login failed");
                 }
@@ -127,7 +127,7 @@ public class Admin {
             System.out.println("Status: operation failed due to " + e);
 
         }
-        return isRegistred;
+        return isRegistered;
 
     }
 
