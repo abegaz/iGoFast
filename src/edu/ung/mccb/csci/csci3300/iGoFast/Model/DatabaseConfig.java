@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseConfig {
 
-    private static final String USERNAME = "tmoon7";
-    private static final String PASSWORD = "pokemon77";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "";
     private static final String CONN_STRING = "jdbc:mysql://localhost/igofastdb";
 
     // connection  method that connects us to the MySQL database
