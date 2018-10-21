@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Circle?>
+<VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ung.mccb.csci.csci3300.iGoFast.Controller.Controller">
+    <children>
+        <Circle fx:id="greenlight" fill="GREEN" opacity="0.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="yellowlight" fill="YELLOW" opacity="0.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="redlight" fill="RED" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+        <Button fx:id="Change_Light_Button" mnemonicParsing="false" onMouseClicked="#ChangeLight" text="Change Light" />
+    </children>
+</VBox>
