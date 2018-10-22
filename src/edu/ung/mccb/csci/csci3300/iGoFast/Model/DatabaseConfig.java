@@ -10,6 +10,7 @@ public class DatabaseConfig {
     private static final String PASSWORD = "";
     private static final String CONN_STRING = "jdbc:mysql://localhost/igofastdb";
 
+
     // connection  method that connects us to the MySQL database
     public static Connection getConnection() throws SQLException {
         //System.out.println("Connected to student database successfully!");

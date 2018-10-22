@@ -20,7 +20,7 @@
       <Circle fx:id="southYellow" fill="#e8ff1f" layoutX="300.0" layoutY="283.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="southRed" fill="#ff1f31" layoutX="264.0" layoutY="283.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
 
-
+       
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#95a2ae" height="120.0" layoutX="220.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
       <Circle fx:id="westGreen" fill="#1fff65" layoutX="246.0" layoutY="234.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="westYellow" fill="#e8ff1f" layoutX="246.0" layoutY="196.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />

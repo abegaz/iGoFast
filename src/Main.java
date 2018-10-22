@@ -12,6 +12,7 @@ public class Main extends Application {
         primaryStage.setTitle("Traffic Control Admin Registration");
         primaryStage.setScene(new Scene(root, 600, 300));
         primaryStage.show();
+
     }
 
 
