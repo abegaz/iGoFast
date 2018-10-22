@@ -110,7 +110,7 @@ public class Admin {
             Statement stmts = (Statement) conn.createStatement();
             ResultSet rs = stmts.executeQuery(query);
             if (!rs.next()) {
-                throw new SecurityException("username not registered");
+                throw new SecurityException("Admin is not registered");
             } else {
                 String storedHashedPassword = rs.getString("password");
                 String storedSalt = rs.getString("salt");
@@ -129,5 +129,6 @@ public class Admin {
         return isRegistered;
 
     }
+
 
 }

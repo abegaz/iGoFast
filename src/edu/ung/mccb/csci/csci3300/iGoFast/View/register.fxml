@@ -15,7 +15,6 @@
         <PasswordField fx:id="txtpassword" layoutX="82.0" layoutY="184.0" prefHeight="27.0" prefWidth="259.0" promptText="Create Password" />
         <PasswordField fx:id="txtcpassword" layoutX="82.0" layoutY="222.0" prefHeight="27.0" prefWidth="259.0" promptText="Confirm Password" />
         <Button layoutX="167.0" layoutY="267.0" mnemonicParsing="false" onAction="#touchLogin" style="-fx-background-color:red" text="Register">
-
             <font>
                 <Font size="18.0" />
             </font></Button>
