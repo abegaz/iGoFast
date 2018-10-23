@@ -1,0 +1,26 @@
+public class TrafficLight
+{
+private boolean isRed;
+private boolean isGreen;
+private boolean isYellow;
+private boolean pass;
+private boolean stop;
+public TrafficLight()
+{isRed=true;
+isGreen=false;
+isYellow=false;
+pass=false;
+stop=true;}
+public void changeColor()
+{;}
+public boolean isRed()
+{return isRed;}
+public boolean isGreen()
+{return isGreen;}
+public boolean isYellow()
+{return isYellow;}
+public boolean pass()
+{return pass;}
+public boolean stop()
+{return stop;}
+}
