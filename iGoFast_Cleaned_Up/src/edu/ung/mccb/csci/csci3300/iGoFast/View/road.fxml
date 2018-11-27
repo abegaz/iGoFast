@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane onMouseClicked="#start" prefHeight="603.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.ung.mccb.csci.csci3300.iGoFast.Controller.LightController">
+    <children>
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#303132" height="152.0" layoutX="4.0" layoutY="212.0" stroke="BLACK" strokeType="INSIDE" width="898.0" />
+
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#303132" height="603.0" layoutX="353.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="172.0" />
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#95a2ae" height="46.0" layoutX="379.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="122.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#95a2ae" height="46.0" layoutX="382.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="122.0" />
+
+
+        <Rectangle fx:id="car4" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="4.0" layoutY="295.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car3" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="4.0" layoutY="295.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car2" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="4.0" layoutY="295.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car1" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="4.0" layoutY="295.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+
+        <Rectangle fx:id="car5" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="864.0" layoutY="219.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car6" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="864.0" layoutY="219.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car7" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="864.0" layoutY="219.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car8" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="864.0" layoutY="219.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+
+        <Rectangle fx:id="car9" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="362.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car10" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="362.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car11" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="362.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car12" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="362.0" layoutY="14.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+
+        <Rectangle fx:id="car13" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="451.0" layoutY="559.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car14" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="451.0" layoutY="559.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car15" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="451.0" layoutY="559.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="car16" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="38.0" layoutX="451.0" layoutY="559.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+
+
+
+
+
+        <Circle fx:id="northGreen" fill="#1df41d" layoutX="480.0" layoutY="184.0" opacity="1.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="northYellow" fill="yellow" layoutX="443.0" layoutY="184.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="northRed" fill="red" layoutX="406.0" layoutY="184.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+
+        <Circle fx:id="southGreen" fill="#1df41d" layoutX="480.0" layoutY="345.0" opacity="1.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="southYellow" fill="yellow" layoutX="439.0" layoutY="345.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="southRed" fill="red" layoutX="406.0" layoutY="345.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#95a2ae" height="120.0" layoutX="362.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Circle fx:id="westGreen" fill="#1df41d" layoutX="387.0" layoutY="302.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="westYellow" fill="yellow" layoutX="387.0" layoutY="264.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="westRed" fill="red" layoutX="388.0" layoutY="226.0" opacity="1.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Rectangle fx:id="eastSensor" arcHeight="5.0" arcWidth="5.0" fill="#645e5e" height="38.0" layoutX="527.0" layoutY="219.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#95a2ae" height="120.0" layoutX="474.0" layoutY="204.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Circle fx:id="eastRed" fill="red" layoutX="499.0" layoutY="226.0" opacity="1.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="eastYellow" fill="yellow" layoutX="499.0" layoutY="264.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="eastGreen" fill="#1df41d" layoutX="499.0" layoutY="302.0" opacity="0.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="13.0" layoutX="276.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="13.0" layoutX="170.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="13.0" layoutX="64.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="13.0" layoutX="552.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="13.0" layoutX="664.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="13.0" layoutX="767.0" layoutY="277.0" stroke="BLACK" strokeType="INSIDE" width="51.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="52.0" layoutX="432.0" layoutY="97.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="51.0" layoutX="432.0" layoutY="391.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="51.0" layoutX="432.0" layoutY="491.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="52.0" layoutX="432.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="15.0" />
+
+
+        <Rectangle fx:id="northSensor" arcHeight="5.0" arcWidth="5.0" fill="#645e5e" height="59.0" layoutX="362.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+        <Rectangle fx:id="westSensor" arcHeight="5.0" arcWidth="5.0" fill="#645e5e" height="38.0" layoutX="265.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+        <Rectangle fx:id="southSensor" arcHeight="5.0" arcWidth="5.0" fill="#645e5e" height="59.0" layoutX="451.0" layoutY="374.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+
+
+
+
+      <Rectangle fx:id="westSensorAfter" arcHeight="5.0" arcWidth="5.0" fill="PURPLE" height="38.0" layoutX="525.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <Rectangle fx:id="eastSensorAfter" arcHeight="5.0" arcWidth="5.0" fill="RED" height="38.0" layoutX="258.0" layoutY="219.0" stroke="BLACK" strokeType="INSIDE" width="103.0" />
+      <Rectangle fx:id="northSensorAfter" arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="96.0" layoutX="362.0" layoutY="371.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="southSensorAfter" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="96.0" layoutX="451.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+    </children>
+</AnchorPane>
